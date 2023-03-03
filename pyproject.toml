@@ -1,0 +1,23 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "KhemIngkapat", email = "60930364+KhemIngkapat@users.noreply.github.com"},
+]
+dependencies = [
+    "httpx>=0.23.3",
+    "selectolax>=0.3.12",
+    "pandas>=1.5.3",
+    "numpy>=1.24.2",
+]
+requires-python = ">=3.11"
+license = {text = "None"}
+
+[tool.pdm.scripts]
+start = 'python main.py'
+
+[tool.pyright]
+extraPaths = ["__pypackages__/3.11/lib/"]
