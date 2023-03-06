@@ -27,4 +27,10 @@ for match in completed_matches[:2]:
 
     print(match_sum:=match_result.join(match_name))
 
-    print(pd.read_html(match_url))
+    tables = match_html.css('table.wf-table-inset')
+
+    for table in tables:
+        for t in pd.read_html(table.html):
+            print(t)
+            print('-'*50)
+
