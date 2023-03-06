@@ -13,12 +13,17 @@ dependencies = [
     "pandas>=1.5.3",
     "numpy>=1.24.2",
     "lxml>=4.9.2",
+    "html5lib>=1.1",
+    "bs4>=0.0.1",
+    "jupyter>=1.0.0",
+    "jupyterlab>=3.6.1",
 ]
 requires-python = ">=3.11"
 license = {text = "None"}
 
 [tool.pdm.scripts]
 start = 'python main.py'
+lab = 'jupyter lab --app-dir=./__pypackages__/3.11/share/jupyter/lab'
 
 [tool.pyright]
 extraPaths = ["__pypackages__/3.11/lib/"]
