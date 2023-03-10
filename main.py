@@ -31,6 +31,8 @@ for match in completed_matches[:2]:
 
     for table in tables:
         for t in pd.read_html(table.html):
+            t.iloc[:,2:] = t.iloc[:,2:].applymap(lambda r : r.split(' ')[0])
+            t = t.dropna(axis='columns',how='all')
             print(t)
-            print('-'*50)
+
 
