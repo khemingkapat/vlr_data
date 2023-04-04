@@ -25,6 +25,7 @@ license = {text = "None"}
 [tool.pdm.scripts]
 start = 'python main.py'
 lab = 'jupyter lab --app-dir=./__pypackages__/3.11/share/jupyter/lab'
+dash = 'python learn_dash.py'
 
 [tool.pyright]
 extraPaths = ["__pypackages__/3.11/lib/"]
