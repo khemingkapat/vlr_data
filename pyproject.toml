@@ -18,6 +18,7 @@ dependencies = [
     "jupyter>=1.0.0",
     "jupyterlab>=3.6.1",
     "dash>=2.9.2",
+    "setuptools>=67.6.1",
 ]
 requires-python = ">=3.11"
 license = {text = "None"}
