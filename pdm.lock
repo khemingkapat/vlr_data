@@ -170,6 +170,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "dash-bootstrap-components"
+version = "1.4.1"
+requires_python = ">=3.7, <4"
+summary = "Bootstrap themed components for use in Plotly Dash"
+dependencies = [
+    "dash>=2.0.0",
+]
+
+[[package]]
 name = "dash-core-components"
 version = "2.0.0"
 summary = "Core component suite for Dash"
@@ -780,7 +789,7 @@ summary = "A small Python package for determining appropriate platform-specific 
 
 [[package]]
 name = "plotly"
-version = "5.14.0"
+version = "5.14.1"
 requires_python = ">=3.6"
 summary = "An open-source, interactive data visualization library for Python"
 dependencies = [
@@ -1102,7 +1111,7 @@ dependencies = [
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:bc59d8116c96018c9fec45dac8db787644cbacb09d57dd5024ad7d530afa83ec"
+content_hash = "sha256:b216329d1ddfb6776f1c533a8264c4d9fc75745ff6b7f457719fb9194260738d"
 
 [metadata.files]
 "aiofiles 22.1.0" = [
@@ -1396,6 +1405,10 @@ content_hash = "sha256:bc59d8116c96018c9fec45dac8db787644cbacb09d57dd5024ad7d530
 "dash 2.9.2" = [
     {url = "https://files.pythonhosted.org/packages/02/d3/fd9164fb711c6a722f335baf9109c6386316d5fb072b3acfbace48cffcf1/dash-2.9.2-py3-none-any.whl", hash = "sha256:f54c0ce81defa92b429f967829f8a5ccdb0dc8208d4e4e96f7149a016c820071"},
     {url = "https://files.pythonhosted.org/packages/aa/b3/77da44065a17a822afbb7c2af8f4b4886da381af450edffd70149dca0fd0/dash-2.9.2.tar.gz", hash = "sha256:ee3d244f560e58300d807f820f7854f8f9d3b482d0c99ddb3ff7cb4dc3be1346"},
+]
+"dash-bootstrap-components 1.4.1" = [
+    {url = "https://files.pythonhosted.org/packages/56/ad/05d76ae657fe1dda77fae9e6b5b64e83e6b56259f3d47fb7ef9e4c3f0012/dash-bootstrap-components-1.4.1.tar.gz", hash = "sha256:05c2e2767a8ab104fc950d15482d09dde59d21f1e9bd5809d30672e61b7f420c"},
+    {url = "https://files.pythonhosted.org/packages/d1/4c/b1f3608f56306257658202fbc2eda029fc2dcc810a0ee7fdf1da2c6c332f/dash_bootstrap_components-1.4.1-py3-none-any.whl", hash = "sha256:17c9e6b90ff27abd3fbd6fe54ea85987b155414a247010467ec904406dcd3657"},
 ]
 "dash-core-components 2.0.0" = [
     {url = "https://files.pythonhosted.org/packages/00/9e/a29f726e84e531a36d56cff187e61d8c96d2cc253c5bcef9a7695acb7e6a/dash_core_components-2.0.0-py3-none-any.whl", hash = "sha256:52b8e8cce13b18d0802ee3acbc5e888cb1248a04968f962d63d070400af2e346"},
@@ -1823,9 +1836,9 @@ content_hash = "sha256:bc59d8116c96018c9fec45dac8db787644cbacb09d57dd5024ad7d530
     {url = "https://files.pythonhosted.org/packages/8f/5f/01180534cebac14f3a792bf2f74fc99d34531c950c308fdebd9721e85550/platformdirs-3.1.0.tar.gz", hash = "sha256:accc3665857288317f32c7bebb5a8e482ba717b474f3fc1d18ca7f9214be0cef"},
     {url = "https://files.pythonhosted.org/packages/ca/de/a33823fe54d52ea72fdae011115d737a2642d441c93b68ed17455a328e4c/platformdirs-3.1.0-py3-none-any.whl", hash = "sha256:13b08a53ed71021350c9e300d4ea8668438fb0046ab3937ac9a29913a1a1350a"},
 ]
-"plotly 5.14.0" = [
-    {url = "https://files.pythonhosted.org/packages/78/06/716dfc518422911c6c8863d4008b30401bb0c2cb20c7a2e5f910f25d3d1b/plotly-5.14.0-py2.py3-none-any.whl", hash = "sha256:2e3407d93a9700beebbef66d11f63992c58e058dd808442ee54af40f98fb4940"},
-    {url = "https://files.pythonhosted.org/packages/cc/60/5e739cb745df76b4401fed20f867a54feabc1aa2e35dc677ea4f556f9f11/plotly-5.14.0.tar.gz", hash = "sha256:02e40264f145e524d9628fd516031976b60d74a33bbabce037ea28580bcd4e0c"},
+"plotly 5.14.1" = [
+    {url = "https://files.pythonhosted.org/packages/15/5c/786e4572cf3217ba1707eeb99fe4bdb8fb138237690fa21641e341b1970c/plotly-5.14.1-py2.py3-none-any.whl", hash = "sha256:a63f3ad9e4cc2e02902a738e5e3e7f3d1307f2732ac71a6c28f1238ed3052826"},
+    {url = "https://files.pythonhosted.org/packages/dd/24/4f307b6e54892a4b91c58a1ee5826325529231d885df8aaa0f1863191f8d/plotly-5.14.1.tar.gz", hash = "sha256:bcac86d7fcba3eff7260c1eddc36ca34dae2aded10a0709808446565e0e53b93"},
 ]
 "prometheus-client 0.16.0" = [
     {url = "https://files.pythonhosted.org/packages/5b/8e/6a546e439b4366ab9eab0a736876eb1e1916dd93b4a1fa560ef711d24f8c/prometheus_client-0.16.0-py3-none-any.whl", hash = "sha256:0836af6eb2c8f4fed712b2f279f6c0a8bbab29f9f4aa15276b91c7cb0d1616ab"},
