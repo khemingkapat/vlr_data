@@ -1,8 +1,4 @@
-import httpx
-from selectolax.parser import HTMLParser
-import re
-import pandas as pd
-from classes import Event, Match
+from classes import Event
 
 
 base_url = "https://www.vlr.gg"
